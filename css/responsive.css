@@ -1,0 +1,38 @@
+@media (max-width: 700px){
+    .top-container{
+        grid-template-areas: 
+        'showcase showcase'
+        'topbox-a topbox-b'
+        ;
+    }
+    .showcase h1{
+        font-size: 2.5rem;
+    }
+    .main-nav ul{
+        grid-template-columns: 1fr;
+    }
+    .info{
+        grid-template-columns: 1fr;
+    }
+    .info .btn{
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+    .own h1{
+        font-size: 52px;
+    }
+}
+@media (max-width: 500px){
+    .top-container{
+        grid-template-areas: 
+        'showcase'
+        'topbox-a'
+         'topbox-b'
+        ;
+    }
+    .own h1{
+        font-size: 42px;
+    }
+    
+}
